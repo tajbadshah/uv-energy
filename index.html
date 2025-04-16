@@ -16,14 +16,17 @@
       background: #ffcc00;
       padding: 20px;
       text-align: center;
+      position: relative;
+    }
+    header img.logo {
+      position: absolute;
+      top: 15px;
+      left: 20px;
+      height: 60px;
     }
     header h1 {
       margin: 0;
       color: #333;
-    }
-    header img {
-      width: 100px; /* Adjust size as needed */
-      margin-bottom: 10px;
     }
     section {
       padding: 40px 20px;
@@ -59,4 +62,68 @@
     .card {
       background: white;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 250px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      margin-top: 15px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://raw.githubusercontent.com/tajbadshah/icon/main/Untitled.png" alt="UV Logo" class="logo">
+    <h1>UV Energy Solutions</h1>
+    <p>Your Trusted Partner in Solar Energy</p>
+  </header>
+
+  <section class="intro">
+    <h2>Harness the Power of the Sun</h2>
+    <p>We provide sustainable solar energy solutions for homes, businesses, and communities. Reduce your electricity bills and carbon footprint with our expert services.</p>
+
+    <div class="whatsapp-contact">
+      <a href="https://wa.me/923310323325" target="_blank">
+        <i class="fab fa-whatsapp"></i> +92 331 0323325
+      </a>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Solar+Panels" alt="Solar Panels">
+        <h3>Residential Solar</h3>
+        <p>Power your home with clean, renewable energy. Save money and the planet.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Solar+Farm" alt="Solar Farm">
+        <h3>Commercial Solutions</h3>
+        <p>Solar setups for offices, factories & large-scale power needs.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/250x150?text=Battery+Storage" alt="Battery Storage">
+        <h3>Battery Storage</h3>
+        <p>Store excess energy and keep your systems running during outages.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 UV Energy Solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
